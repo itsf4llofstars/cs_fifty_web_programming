@@ -1,7 +1,3 @@
 div {
-  background-color: orange;
-  width: 200px;
-  height: 200px;
-  padding: 20px; /* Pads inside the element */
-  margin: 20px; /* Margins outside the element */
+  font-family: Arial, sans-serif;
 }
