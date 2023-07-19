@@ -1,16 +1,11 @@
-div {
-  /* Take a look at border collapse for tables, this allows to
-   * collapse the borders so as to NOT show individual boxes as borders
-   * */
-  border: 3px solid black;
-  margin: 10px;
-  padding: 10px;
-  font-family: Arial, sans-serif;
-  font-size: 28px;
-  font-weight: bold;
+table {
+  border: 1px solid black;
 }
 
-h2,
-h3 {
-  color: green;
+th {
+  border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
 }
