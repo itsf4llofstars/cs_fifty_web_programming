@@ -13,3 +13,18 @@ ol {
   font-size: 20px;
   color: $color;
 }
+
+/** Nesting example: Not compiled
+ *  Only p and ul inside the div
+ **/
+div {
+  font-size: 18px;
+
+  p {
+    color: blue;
+  }
+
+  ul {
+    color: green;
+  }
+}
