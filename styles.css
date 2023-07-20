@@ -1,11 +1,11 @@
-button {
-  width: 200px;
-  height: 50px;
-  font-size: 24px;
-  background-color: green;
+@media (min-width: 600px) {
+  body {
+    background-color: red;
+  }
 }
 
-/* CSS psydo class */
-button:hover {
-  background-color: orange;
+@media (max-width: 599px) {
+  body {
+    background-color: blue;
+  }
 }
