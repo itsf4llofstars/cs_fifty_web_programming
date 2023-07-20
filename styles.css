@@ -1,3 +1,7 @@
-ul li { /* Only the direct (imediate) children of ul */
+a {
+  color: blue;
+}
+
+a[href="https://www.amazon.com"] {
   color: green;
 }
